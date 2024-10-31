@@ -1,0 +1,55 @@
+.title {
+
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    color: white;
+    font-size: 25px;
+    
+}
+
+input {
+padding: 20px;
+width: 250px;
+outline: none;
+background: none;
+border: none;
+border-bottom: 1px solid rgb(136, 31, 136);;
+color: white;
+font-size: 17px;
+
+
+
+}
+
+body {
+
+    background-image: url(logo/pngtree-purple-flowers-with-shadows-in-the-field-of-grass-image_12997524.jpg);
+    background-size: cover;
+    
+}
+
+button{
+
+    width: 100%;
+    padding: 15px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    border: none;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+
+    transform: scale(1.03);
+    transition: ease-in-out 200ms;
+    background-color: rgb(65, 13, 114);
+}
+
+
+
